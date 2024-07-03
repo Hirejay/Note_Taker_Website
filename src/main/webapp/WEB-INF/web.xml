@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveNoteServlet</servlet-name>
+  	<display-name>SaveNoteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sarvlets.SaveNoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveNoteSavlet</servlet-name>
+  	<display-name>SaveNoteSavlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sarvlets.SaveNoteSavlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveNoteSarvlet</servlet-name>
+  	<display-name>SaveNoteSarvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sarvlets.SaveNoteSarvlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteNoteSarvlet</servlet-name>
+  	<display-name>DeleteNoteSarvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sarvlets.DeleteNoteSarvlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateNoteSarvlet</servlet-name>
+  	<display-name>UpdateNoteSarvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.sarvlets.UpdateNoteSarvlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveNoteServlet</servlet-name>
+  	<url-pattern>/SaveNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveNoteSavlet</servlet-name>
+  	<url-pattern>/SaveNoteSavlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveNoteSarvlet</servlet-name>
+  	<url-pattern>/SaveNoteSarvlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteNoteSarvlet</servlet-name>
+  	<url-pattern>/DeleteNoteSarvlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateNoteSarvlet</servlet-name>
+  	<url-pattern>/UpdateNoteSarvlet</url-pattern>
+  </servlet-mapping>
+</web-app>
